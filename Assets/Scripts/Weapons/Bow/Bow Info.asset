@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76350ade8f5470946a9455d62319dd6b, type: 3}
+  m_Name: Bow Info
+  m_EditorClassIdentifier: 
+  weaponSprite: {fileID: 0}
+  weaponPosition: {x: -0.025, y: 0.353, z: 0}
+  weaponBehaviour: {fileID: 11400000, guid: 5e3797c35983db04ab46a776ee31d42a, type: 2}
+  weaponAnim: {fileID: 9100000, guid: 9532569abed4b584989a5ba1b5c8ae6a, type: 2}
+  weaponAnimPostion: {x: 0, y: 0, z: 0}
+  weaponAnimColor: {r: 1, g: 1, b: 1, a: 1}
+  firingPointPostion: {x: -0.16, y: -0.01, z: 0}
+  weaponBulletSpeed: 15
+  weaponBullet: {fileID: 8703709640628217543, guid: aa4acd81502493d469e383a6e3669789, type: 3}
+  weaponBulletCollisionEffect: {fileID: 2749416110165247630, guid: 3c04b2ee9ab9d37459f9277e3806e34c, type: 3}
+  weaponBackSprite: {fileID: 5342339644809915694, guid: 6cd198aefcb544d6aa5f8f37be4f872a, type: 3}
+  weaponBackPosition: {x: 0.64, y: 0.98, z: 0}
+  weaponBackRotation: {x: 0, y: 0, z: 21.912}
+  cartridge: {fileID: 0}
